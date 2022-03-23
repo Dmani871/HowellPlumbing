@@ -6,6 +6,7 @@ import Services from './routes/Services';
 import About from './routes/About';
 import Contact from './routes/Contact';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="contact" element={<Contact />} />
           </Routes>
         </BrowserRouter>
+        <Footer />
       </Box>
     </ChakraProvider>
   );
