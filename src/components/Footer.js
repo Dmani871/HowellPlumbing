@@ -9,7 +9,7 @@ const Footer = () => {
       left={0}
       bottom={0}
     >
-      <HStack>
+      <HStack p={4}>
         <Text>© 2021 dev. by us Ltd. Registered Company 12469520. United Kingdom.</Text>
         <Spacer />
         <Link href="https://www.devbyus.co.uk/">
