@@ -2,7 +2,7 @@ import { Box, Link, HStack,Text,Spacer} from '@chakra-ui/react';
 const Footer = () => {
   return (
     <Box
-      bg="tomato"
+      bg="main.primary"
       w="100%"
       color="white"
       position="fixed"
