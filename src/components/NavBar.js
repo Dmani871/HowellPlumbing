@@ -7,9 +7,6 @@ const NavBar = () => {
       <Link as={RouterLink} to="/home">
         Home
       </Link>
-      <Link as={RouterLink} to="/about">
-        About
-      </Link>
       <Link as={RouterLink} to="/services">
         Services
       </Link>
